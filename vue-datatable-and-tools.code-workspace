@@ -1,0 +1,13 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "C:\\GitProjects\\Perruque\\typedoc-plugin-tutorials"
+        }
+    ],
+    "settings": {
+        "vetur.validation.template": false
+    }
+}

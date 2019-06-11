@@ -10,10 +10,12 @@ const DEFAULT_DATATABLE = 'datatable';
  * Registers Vuejs-Datatable components globally in VueJS.
  *
  * @example
+ * ```typescript
  * import { DatatableFactory } from 'vuejs-datatable';
  * const myDatatableFactory = new DatatableFactory()
  *     .registerTableType( new TableType( 'my-table', {}) )
  * Vue.use( myDatatableFactory );
+ * ```
  */
 export class DatatableFactory implements PluginObject<void> {
 	/** A reference to the Vue instance the plugin is installed in. It may be used to check if the factory was already installed */
